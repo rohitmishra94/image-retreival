@@ -25,7 +25,7 @@ Different models were evaluated for their retrieval performance using various re
 
 1. Evaluated retrieval efficiency across various embedding models (small to large)
 2. Selected UNICOM model as teacher based on research paper and superior retrieval efficiency
-3. Conducted transfer learning experiments:
+3. Conducted transfer learning experiments (teacher-student approach):
    - Finetuned projection layer in ResNet50 and CLIP-ViT32 for 10 epochs
    - Demonstrated successful transfer learning with improved efficiency
 4. Motivation for transfer learning: UNICOM model size (1.6GB) necessitated smaller models for reduced latency
